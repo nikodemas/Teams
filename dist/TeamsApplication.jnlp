@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TeamsApplication.jnlp">
+  <information>
+    <title>TeamsApplication</title>
+    <vendor>Nikodemas</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TeamsApplication.jar" size="18542" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="TeamsApplication" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="teamsapplication.RegistrationFormApplication"  name="TeamsApplication" />
+  <update check="always"/>
+</jnlp>
